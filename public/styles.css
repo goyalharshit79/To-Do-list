@@ -1,0 +1,42 @@
+body {
+  background-color: #fde69e;
+}
+input {
+  border: 0;
+  border-bottom: solid 1px;
+  border-style: dashed;
+  margin-bottom: 40px;
+  display: inline;
+}
+#heading-container {
+  padding: 20px;
+  background-color: #fec361;
+  width: fit-content;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  margin-top: 0;
+}
+#big-container {
+  margin-top: 20vh;
+  padding: 40px;
+  background-color: white;
+  border-radius: 30px;
+  width: fit-content;
+  max-width: 60vw;
+  overflow: auto;
+  overflow-wrap: break-word;
+}
+button {
+  background-color: transparent;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+li {
+  margin-top: 30px;
+}
+li:first-child {
+  margin-top: 10px;
+}
+input:focus {
+  outline: 0;
+}
